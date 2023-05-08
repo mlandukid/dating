@@ -1,0 +1,48 @@
+# Music, Movie, and Sports Team Matcher Version 0.1
+
+# Overview
+
+This is a simple web application that helps users find their potential matches based on their favorite music artists, movies, and sports teams. The app consists of a form where users can input their preferences, and it will display a list of other users with the same interests.
+
+# Features
+
+Users can input their favorite music artist, movie, and sports team.
+The app finds and displays a list of other users who share the same interests.
+Dark mode and light mode toggle button for improved user experience.
+Sign-up page for new users to register their preferences.
+# Technologies Used
+
+HTML, CSS, and JavaScript for the frontend.
+Python with Flask for the backend to handle the server-side logic and user data.
+The application uses a simple in-memory storage to store user preferences.
+# Getting Started
+
+# Prerequisites
+
+Python 3.x (https://www.python.org/downloads/)
+Flask (Install using pip install flask)
+
+# Running the Application
+
+Clone the repository or download the source code.
+Navigate to the project directory in your terminal.
+Install the required dependencies using pip install -r requirements.txt.
+Run the application using python app.py.
+Open your web browser and navigate to http://127.0.0.1:5000/ to access the application.
+
+# Usage
+
+If you're a new user, click on the "Sign up" link on the home page.
+Fill out the sign-up form with your name, age, favorite music artist, favorite movie, and favorite sports team. Click "Submit" to register your preferences.
+On the main page, input your favorite music artist, movie, and sports team in the provided form.
+Click the "Find Matches" button to see a list of other users who share the same interests as you.
+Use the "Toggle Dark Mode" button to switch between dark mode and light mode as per your preference.
+
+# Disclaimer
+
+This application is a simple proof-of-concept and will drastically change overtime and is not intended for production use yet. The user data is stored in-memory and will be lost when the application is terminated. For a production-ready application, consider using a proper database to store user data and implementing user authentication.
+
+
+
+
+
